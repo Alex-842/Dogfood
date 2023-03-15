@@ -1,0 +1,279 @@
+/* manrope-300 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/manrope-v13-latin-300.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../fonts/manrope-v13-latin-300.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* manrope-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/manrope-v13-latin-regular.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../fonts/manrope-v13-latin-regular.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* manrope-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/manrope-v13-latin-500.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../fonts/manrope-v13-latin-500.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* manrope-600 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/manrope-v13-latin-600.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../fonts/manrope-v13-latin-600.woff') format('woff');
+    /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Обязательно */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #000;
+}
+
+/* Header start */
+
+header {
+    position: sticky;
+    background-color: #fff;
+}
+
+.wrapper {
+    max-width: 1182px;
+    margin: 0 auto;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+}
+
+.header_list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+.header_button {
+    width: 205px;
+    height: 55px;
+    background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+    border-radius: 9px;
+    color: white;
+    border: none;
+    /* transition: background-color 0.3s ease-out; */
+}
+
+.header_button:hover {
+    background: rgb(183, 15, 130);
+}
+
+
+.header_link {
+    Font-size: 16px;
+    Line-height: 24px;
+    Line-height: 110%;
+    text-decoration: none;
+    color: #333333;
+    ;
+}
+
+.header_link:hover,
+.header_link:focus,
+.header_link:active {
+    opacity: .75;
+}
+
+/* header end */
+
+
+/* Intro start */
+
+main {
+    background-color: #F7F6FF;
+}
+
+
+.intro_wrapper h1 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 65px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.intro_wrapper p {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.intro_button {
+    min-width: 130px;
+    height: 55px;
+    background: #77B2D3;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    transition: background-color 0.3s ease-out;
+}
+
+.intro_button:hover {
+    background: #346988;
+}
+
+.intro_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.intro_img {
+    width: 500px;
+    height: 430px;
+    padding-top: 75px;
+}
+
+.intro_text {
+    padding-top: 115px;
+}
+
+.intro {
+    margin-bottom: 45px;
+}
+
+/* Intro end */
+
+
+/* Numbers start */
+.numbers_wrapper {
+    height: 255px;
+    width: 1170px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #C7C7C7,
+        -5px -5px 5px #C7C7C7;
+    display: flex;
+    flex-direction: column;
+    padding-left: 55px;
+    padding-top: 40px;
+    padding-bottom: 55px;
+
+}
+
+.numbers_text {
+    padding-top: 35px;
+    display: flex;
+    /* gap: 50px; */
+}
+
+.numbers_text_one {
+    border-right: 1px solid #C7C7C7;
+    padding: 6px 63px 6px 0px;
+}
+
+.numbers_text_two {
+    border-right: 1px solid #C7C7C7;
+    padding: 6px 63px 6px 62px;
+}
+
+.numbers_text_three {
+    border-right: 1px solid #C7C7C7;
+    padding: 6px 63px 6px 62px;
+}
+
+.numbers_text_four {
+    /* border-right: 1px solid #C7C7C7; */
+    padding: 6px 63px 6px 62px;
+}
+
+.numbers_wrapper h2 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.numbers_wrapper h3 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    background: linear-gradient(115.11deg, #F32C6D 30%, #CB1D95 85%);
+    color: #F32C6D;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: table;
+}
+
+.numbers_wrapper p {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+
+
+/* Numbers end */
