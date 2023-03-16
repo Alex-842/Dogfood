@@ -98,14 +98,13 @@ header {
 
 }
 
-.header_button {
+.header__button {
     width: 205px;
     height: 55px;
     background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
     border-radius: 9px;
     color: white;
     border: none;
-    /* transition: background-color 0.3s ease-out; */
 }
 
 .header_button:hover {
@@ -199,13 +198,13 @@ main {
 
 
 /* Numbers start */
-.numbers_wrapper {
+.numbers__wrapper {
     height: 255px;
     width: 1170px;
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #C7C7C7,
-        -5px -5px 5px #C7C7C7;
+    -5px -5px 5px #C7C7C7;
     display: flex;
     flex-direction: column;
     padding-left: 55px;
@@ -214,35 +213,33 @@ main {
 
 }
 
-.numbers_text {
+.numbers__text {
     padding-top: 35px;
     display: flex;
-    /* gap: 50px; */
 }
 
-.numbers_text_one {
+.numbers__text__one {
     border-right: 1px solid #C7C7C7;
     padding: 6px 63px 6px 0px;
 }
 
-.numbers_text_two {
+.numbers__text__two {
     border-right: 1px solid #C7C7C7;
     padding: 6px 63px 6px 62px;
 }
 
-.numbers_text_three {
+.numbers__text__three {
     border-right: 1px solid #C7C7C7;
     padding: 6px 63px 6px 62px;
 }
 
-.numbers_text_four {
-    /* border-right: 1px solid #C7C7C7; */
+.numbers__text__four {
     padding: 6px 63px 6px 62px;
 }
 
-.numbers_wrapper h2 {
+.numbers__wrapper h2 {
     font-family: 'Manrope', sans-serif;
-    font-style: normal;
+    font-style: bold;
     font-size: 38px;
     line-height: 48px;
     font-weight: 700;
@@ -251,7 +248,7 @@ main {
     margin-top: 0px;
 }
 
-.numbers_wrapper h3 {
+.numbers__wrapper h3 {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-size: 40px;
@@ -266,7 +263,7 @@ main {
     display: table;
 }
 
-.numbers_wrapper p {
+.numbers__wrapper p {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-size: 16px;
@@ -274,6 +271,115 @@ main {
     font-weight: 500;
 }
 
-
-
 /* Numbers end */
+
+
+/* services start */
+
+.services__wrapper{
+    display: flex;
+    gap: 18px;
+}
+
+.wrapper__text{
+    margin-bottom: 40px;
+    font-style: bold;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 75px;
+}
+
+.services__text{
+    width: 220px;
+    height: 378px;
+    border-radius: 9px;
+}
+
+.serveces__text__heading{
+    width: 220px;
+    height: 74px;
+    background:#77B2D3;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serveces__text__heading h3{
+    font-style: bold;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+}
+
+.serveces__text__main{
+    background-color: #fff;
+    margin-bottom: 21px;
+    padding: 18px 0  0 14px ; 
+    height:304px; 
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.serveces__text__main div{
+    margin-bottom: 7px;
+}
+
+.serveces__text__main:last-child{
+    margin-bottom: 7px;
+}
+
+.serveces__text__main img{
+    margin-right: 7px;
+}
+
+.serveces__text__main p{
+    border-top: 1px solid #C7C7C7;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+
+
+.services__price{
+    font-style: bold;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 800;
+    background: linear-gradient(115.11deg, #F32C6D 30%, #CB1D95 85%);
+    color: #F32C6D;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+.services__button {
+    width: 195px;
+    height: 55px;
+    background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+    border-radius: 9px;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+
+/* services end */
+
+
+/* form start */
+
+.form{
+    height: 500px;
+}
