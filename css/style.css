@@ -107,8 +107,8 @@ header {
     border: none;
 }
 
-.header_button:hover {
-    background: rgb(183, 15, 130);
+.header__button:hover {
+    background: linear-gradient(115.11deg, #cb1e58 10.12%, #a81078 100.01%);
 }
 
 
@@ -279,6 +279,7 @@ main {
 .services__wrapper{
     display: flex;
     gap: 18px;
+    height: 470px;
 }
 
 .wrapper__text{
@@ -374,6 +375,10 @@ main {
     margin-left: 10px;
 }
 
+.services__button:hover {
+    background: linear-gradient(115.11deg, #cb1e58 10.12%, #a81078 100.01%);
+}
+
 
 /* services end */
 
@@ -382,4 +387,81 @@ main {
 
 .form{
     height: 500px;
+
 }
+
+
+
+
+
+
+/* form end */
+
+
+
+
+/* footer start */
+
+.footer{
+    background-color: #fff;
+}
+
+.footer__text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 68px;
+    margin-bottom: 60px;
+}
+
+.footer__text a{
+    margin-bottom: 13px;
+    text-decoration: none;
+    color: #333333;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    font-style: normal;
+}
+
+.footer__text  h3{
+    color: #333333;
+    margin-bottom:13px ;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.footer__text button{
+    margin-top: 22px;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+}
+
+.footer__text:first-child{
+margin-top: 52px;
+}
+
+
+.footer__copyright{
+    height:41px;
+    background-color:#2D2D2D ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__copyright p{
+    color: #FFFFFF;
+    font-style: 400;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 300;
+}
+
+
+/* footer end */
