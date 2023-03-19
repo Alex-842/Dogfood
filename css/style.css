@@ -386,9 +386,84 @@ main {
 /* form start */
 
 .form{
-    height: 500px;
-
+    margin-top: 70px;
 }
+
+.form__group{
+    display: flex;
+}
+
+.form__container H2{
+margin-bottom: 22px;
+    font-style: bold;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.form__container p{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 22px;
+}
+
+.form__img{
+    height:511px ;
+    width:570px ;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: #fff;
+    border: none;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    padding-left: 19px;
+}
+
+#name{
+    height: 59px;
+    width: 270px;
+}
+
+#number{
+    height: 59px;
+    width: 270px;
+}
+
+#text{
+    height: 141px;
+    width: 570px;
+}
+
+#checkbox{
+    margin-right: 12px;
+    border: none;
+    border-radius: 9px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 22px;
+}
+
+.label__checbox{
+    padding-bottom: 10px;
+}
+
+/* input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+} */
+
 
 
 
